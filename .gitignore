@@ -1,0 +1,52 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# YOLO model weights and training outputs
+runs/
+wandb/
+*.onnx
+*.engine
+
+# Large model files
+*.pt
+*.pth
+*.weights
+
+# Generated videos and output files
+output_video/
+output/
+*.avi
+*.mp4
+*.mov
+
+# Generated tracking data
+stub/*.pkl
+*.pickle
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
